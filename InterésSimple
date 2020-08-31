@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include<iostream>
+using namespace std;
+int main() {
+	float c;
+	float i;
+	float t;
+	float n;
+	cout << "CALCULADOR DE INTERÉS ANUAL" << endl;
+	// interes=capital*tasadeinteres*tiempo
+	cout << "Ingrese el monto prestado:" << endl;
+	cin >> c;
+	cout << "Ingrese la tasa de interés sin símbolo:" << endl;
+	cin >> t;
+	cout << "Ingrese el periodo de tiempo en años: " << endl;
+	cin >> n;
+	i = (c*(t*0.01)*n);
+	cout << "El interés anual es :" << i << " Bs."<<endl;
+	return 0;
+}
