@@ -1,0 +1,31 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float primerparcial, segundoparcial,tercerparcial, parciales, proyecto, final, notafinal;
+    
+    cout<<"ingresa la nota del primer parcial: ";
+    cin>> primerparcial;
+    cout<<"ingresa la nota del segundo parcial: ";
+    cin>> segundoparcial;
+cout<<"ingresa la nota del tercer parcial: ";
+    cin>> tercerparcial;
+    parciales=(primerparcial+segundoparcial+tercerparcial)/3;
+     cout<< "ingresar nota del proyecto:";
+    cin>> proyecto;
+    cout<< "ingresar nota del final:";
+    cin>> final;
+    notafinal=(parciales*0.4)+(proyecto*0.20)+(final*0.4);
+    cout<<"la nota fial es:"<<notafinal;
+    return 0;
+}
